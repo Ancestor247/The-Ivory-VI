@@ -1,5 +1,10 @@
 body {
     background-color: rgb(235, 220, 89);
+    background-image: url('the ivory.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ 
 }
 
 
@@ -13,8 +18,29 @@ font-size: 40px;
 .victoria-island {
 color: rgb(20, 20, 75);
 font-size: 20px;
+margin-bottom: 0px;
 }
 
-.the-ivory, .victoria-island {
+.the-ivory, .victoria-island, .slogan {
     font-family: Gelasio, seriss;
+}
+
+.slogan {
+    height: 30px;
+color: rgb(20, 20, 75);
+margin: 2px;
+}
+
+.book-now {
+    color: white;
+    size: 25px;
+    height: 100px;
+    background-color: rgb(20, 20, 75);
+    border: solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 1 0px;
+    cursor: pointer;
+
 }
