@@ -4,6 +4,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
  
 }
 
@@ -49,4 +50,33 @@ margin: 2px;
     cursor: pointer;
     border: none;
  
+}
+
+.ivory-bathroom {
+    width: 500px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+
+}
+
+.executive-rooms {
+    width: 150px;
+
+}
+
+.classic-rooms {
+    width: 150px;
+}
+
+.executive-texts {
+    color: rgb(20, 20, 75); 
+    font-size: 30px;
+
 }
