@@ -4,6 +4,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+   
     
  
 }
@@ -13,6 +14,7 @@ body {
 height: 30px;
 color: rgb(20, 20, 75);
 font-size: 40px;
+margin-top: 3px;
 
 
 
@@ -68,6 +70,8 @@ li {
 
 .executive-rooms {
     width: 150px;
+    vertical-align: left;
+    display: inline-block;
 
 }
 
@@ -75,8 +79,34 @@ li {
     width: 150px;
 }
 
-.executive-texts {
+.executive-texts, .classic-texts {
     color: rgb(20, 20, 75); 
     font-size: 30px;
+    align-items: flex-end;
+    display: flex;
+}
 
+.executive, .classic {
+    display: inline-block;
+}   
+
+.login {
+    border-width: 500px;
+    border-color: rgb(20, 20, 75);
+    border: solid;
+    cursor: pointer;
+    border-radius: 6px;
+    box-sizing: 19px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    float: 20px left;
+    left: 10px;
+}
+
+.ivory-header {
+    display: inline-block;
+    margin-top: 3px;
 }
